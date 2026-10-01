@@ -1,0 +1,129 @@
+# ============================================================
+# cad-toolkit
+# ============================================================
+
+# ------------------------------------------------------------
+# .NET / Visual Studio build output
+# ------------------------------------------------------------
+**/bin/
+**/obj/
+**/dist/
+**/publish/
+artifacts/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# JetBrains / Rider
+.idea/
+*.sln.iml
+
+# VS Code local settings
+.vscode/
+
+# ------------------------------------------------------------
+# .NET
+# ------------------------------------------------------------
+*.dll
+*.exe
+*.pdb
+*.deps.json
+*.runtimeconfig.json
+*.nupkg
+*.snupkg
+
+# Test / coverage output
+TestResults/
+**/TestResults/
+coverage/
+coverage.*
+*.coverage
+*.coveragexml
+
+# ------------------------------------------------------------
+# AutoCAD generated / temporary files
+# ------------------------------------------------------------
+*.bak
+*.dwl
+*.dwl2
+*.ac$
+*.sv$
+*.tmp
+*.err
+*.log
+
+# AutoCAD autosave / recovery
+*.acbak
+*.recover
+
+# ------------------------------------------------------------
+# CAD working/test files
+# Keep real project drawings out of Git
+# ------------------------------------------------------------
+*.dwg
+*.dxf
+*.dws
+*.dwt
+
+# External CAD references / images
+*.jpg
+*.jpeg
+*.png
+*.tif
+*.tiff
+*.bmp
+*.pdf
+
+# ------------------------------------------------------------
+# REVITPREP / CAD-toolkit generated output
+# ------------------------------------------------------------
+*_REVIT.dwg
+*_REVIT_*.dwg
+*_REVIT_REPORT.txt
+*_REPORT.txt
+
+# Local test/evidence folders
+test-data/
+test-output/
+samples/private/
+evidence/
+screenshots/
+
+# ------------------------------------------------------------
+# Revit files if used during integration testing
+# ------------------------------------------------------------
+*.rvt
+*.rfa
+*.rte
+*.rft
+*.0001.rvt
+*.0002.rvt
+*.0003.rvt
+
+# ------------------------------------------------------------
+# OS
+# ------------------------------------------------------------
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ------------------------------------------------------------
+# Python — useful for utility/test scripts
+# ------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# ------------------------------------------------------------
+# Local / secrets
+# ------------------------------------------------------------
+.env.*
+!.env.example
+*.local
+secrets/
